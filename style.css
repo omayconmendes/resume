@@ -6,8 +6,9 @@
 .body-int{
     width: 1145px;
     margin: auto;
-    padding: 0 30px 0 30px;
+    padding: 10px 50px 0 50px;
     box-shadow: 0 0 1em  rgb(201, 197, 197);
+    display: flexbox;
 }
 
 nav {
@@ -42,7 +43,22 @@ h1{
     font-size: 50px;
 }
 
+address a{
+    transition: all 0.5s;
+}
+
+address a:hover{
+    display: inline-flex;
+    transform: scale(1.5);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 p{
+    font-size: 20px;
+}
+
+li{
     font-size: 20px;
 }
 
